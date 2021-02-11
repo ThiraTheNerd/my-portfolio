@@ -25,3 +25,27 @@ h1.header-section{
 .menu a:hover{
   background-color: rgb(190, 110, 18);
 }
+
+#profile-image{
+  border-width: 3px;
+  border-color: rgb(190, 110, 18);
+  border-radius: 180px;
+  height: 200px;
+  width: 200px;
+  float:left;
+  padding: 16px;
+
+}
+.brief-intro{
+  float: left;
+  padding: 20px;
+  width: 700px;
+  background-color:white;
+  font-size: large;
+  
+}
+h1.brief-intro{
+  color: rgb(190, 110, 18);
+  font-size: 20px;
+  
+}
