@@ -1,0 +1,10 @@
+.header-section{
+  height: 350px;
+  width: 1050px;
+}
+h1.header-section{
+  color: white;
+  text-align: center;
+  padding-top: 175px;
+  font-size: 36px;
+}
