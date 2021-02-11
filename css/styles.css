@@ -18,12 +18,15 @@ h1.header-section{
   float: left;
   display: block;
   padding: 20px;
+  text-decoration: none;
+  color: black;
   
 
 }
 
 .menu a:hover{
   background-color: rgb(190, 110, 18);
+  color: black;
 }
 
 #profile-image{
@@ -38,7 +41,7 @@ h1.header-section{
 }
 .brief-intro{
   float: left;
-  padding: 20px;
+  margin-top: 20px;
   width: 700px;
   background-color:white;
   font-size: large;
@@ -46,6 +49,7 @@ h1.header-section{
 }
 h1.brief-intro{
   color: rgb(190, 110, 18);
-  font-size: 20px;
+  font-size: 22px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   
 }
