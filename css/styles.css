@@ -115,3 +115,19 @@ div::after {
   float: right;
   margin-top: 20px;
 }
+div.fixed{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  top: 600px;
+}
+button.top{
+  width: 130px;
+  height: 60px;
+  background-color: rgb(190, 110, 18);
+  border-radius: 180px;
+}
+#project-link{
+  text-decoration: rgb(236, 188, 133);
+  color: rgb(236, 188, 133);
+}
