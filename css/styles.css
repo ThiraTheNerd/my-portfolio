@@ -91,7 +91,9 @@ font-style: italic;
 }
 .jkuat{
   width: 450px;
-  float:right
+  float:right;
+  margin-top: 20px;
+  
 
 }
 
@@ -102,4 +104,14 @@ p.description{
 div::after {
   content: "";
   clear: both;
+}
+.work{
+  padding: 20px;
+  float: left;
+  width: 450px;
+}
+.work2{
+  width:450px;
+  float: right;
+  margin-top: 20px;
 }
