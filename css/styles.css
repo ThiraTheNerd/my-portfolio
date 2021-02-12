@@ -128,6 +128,9 @@ button.top{
   border-radius: 180px;
 }
 #project-link{
-  text-decoration: rgb(236, 188, 133);
-  color: rgb(236, 188, 133);
+  color: rgb(190, 110, 18);
+}
+.project1{
+  float:left;
+
 }
