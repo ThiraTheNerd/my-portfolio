@@ -1,3 +1,6 @@
+body{
+  line-height: 1.6;
+}
 .header-section{
   height: 250px;
   width: 1050px;
@@ -57,6 +60,7 @@ h1.brief-intro{
   font-size: 22px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   
+  
 }
 div::after {
   content: "";
@@ -69,4 +73,33 @@ h1.titles{
   border-color: black;
   color: rgb(190, 110, 18);
 
+}
+
+h3.dates{
+  background-color:  rgb(236, 188, 133);
+  
+}
+h4.institutions{
+font-style: italic;
+
+}
+
+.left-side{
+  padding: 20px;
+  float: left;
+  width: 450px;
+}
+.jkuat{
+  width: 450px;
+  float:right
+
+}
+
+p.description{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.6;
+}
+div::after {
+  content: "";
+  clear: both;
 }
