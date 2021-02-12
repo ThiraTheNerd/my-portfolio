@@ -132,5 +132,18 @@ button.top{
 }
 .project1{
   float:left;
+  padding: 20px;
 
+}
+.project2{
+  padding: 20px;
+  float: right;
+}
+span.technology{
+  float:right;
+  width: 150px;
+}
+h4.technology{
+  float: left;
+  width: 150px;
 }
