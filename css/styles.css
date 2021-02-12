@@ -20,13 +20,18 @@ h1.header-section{
   padding: 20px;
   text-decoration: none;
   color: black;
-  
-
 }
 
 .menu a:hover{
   background-color: rgb(190, 110, 18);
   color: black;
+}
+/* clear float after the menu */
+div::after{
+  content: "";
+  display: table;
+  clear: both;
+
 }
 
 #profile-image{
@@ -52,4 +57,16 @@ h1.brief-intro{
   font-size: 22px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   
+}
+div::after {
+  content: "";
+  clear: both;
+}
+h1.titles{
+  text-align: center;
+  border-style: double;
+  padding: 10px;
+  border-color: black;
+  color: rgb(190, 110, 18);
+
 }
